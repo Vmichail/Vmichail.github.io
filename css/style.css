@@ -23,6 +23,13 @@ body {
   height: 100%;
   background: linear-gradient(rgba(31, 31, 31, 0.65), rgba(31, 31, 31, 0.65)),
     /* bottom, image */ url("https://image.ibb.co/dXmm1V/background1.jpg");
+   background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
 }
 .background-color {
   margin: 0;
